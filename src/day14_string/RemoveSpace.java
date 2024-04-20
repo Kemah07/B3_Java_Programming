@@ -7,7 +7,7 @@ public class RemoveSpace {
         System.out.println(str.length()); // 16
 
         str = str.trim(); //  "____Thursday____" -- > "Thursday"
-        System.out.println(str.length());
+        System.out.println(str);
 
         String str2 = "     java is fun     "; // 21
         System.out.println(str2.length());
