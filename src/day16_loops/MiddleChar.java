@@ -26,7 +26,7 @@ public class MiddleChar {
 
         } else {  // odd
 
-            //evenOrOdd = str.substring(str.length()/2, str.length()/2 + 1);
+            evenOrOdd = str.substring(str.length()/2, str.length()/2 + 1);
             evenOrOdd = str.charAt(str.length()/2)+"";
 
         }
