@@ -9,7 +9,7 @@ public class FirstAndLast {
         String sentence = key.nextLine(); // Java is a fun coding language
 
 
-        System.out.println(0 + sentence.charAt(0)); // this is not CONCATENATION. CONCATENATION happens if one side is STRING
+        System.out.println(7 + sentence.charAt(0)); // this is not CONCATENATION. CONCATENATION happens if one side is STRING
         System.out.println(sentence.charAt(0)); // HERE WE DO NOT HAVE concatenation or addition.
         System.out.println(0 + sentence.charAt( sentence.length() - 1) );
         System.out.println(0 + sentence.charAt( sentence.length() - 1) );

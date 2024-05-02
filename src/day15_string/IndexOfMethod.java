@@ -7,7 +7,7 @@ public class IndexOfMethod {
 
 
         System.out.println( s.indexOf("p") ); // 0
-        //System.out.println( s.indexOf('p') );
+        System.out.println( s.indexOf('p') );
         System.out.println( s.indexOf("pe"));
 
         System.out.println("-----");
@@ -31,7 +31,7 @@ public class IndexOfMethod {
 
 
         System.out.println("-----");
-        System.out.println( s.indexOf('p', 4) );
+        System.out.println( s.indexOf('p', 4) ); //penpen
         System.out.println(s.indexOf("pe", 1));
 
         System.out.println(s.indexOf("pe", 10)); // This will not give EXCEPTION, it wil just say that there is not MATCHING with -1
