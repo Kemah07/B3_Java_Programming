@@ -13,8 +13,8 @@ public class MiddleChar {
 // "abcdef" -- > 6 - even -- > cd
         // "abcde"  -- > 5 - odd  -- > c
 
-        String str = "abcde";  //  5
-        //            01234
+        String str = "abcdef";  //  5
+        //            012345
         //            length()/2 -- > 2,  3
 
         String evenOrOdd = "";
