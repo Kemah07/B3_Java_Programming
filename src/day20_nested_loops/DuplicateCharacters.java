@@ -10,6 +10,7 @@ public class DuplicateCharacters {
 
             char each1 = str.charAt(i);
 
+
             if(checked.contains(each1+"")){
                 continue;
             }
