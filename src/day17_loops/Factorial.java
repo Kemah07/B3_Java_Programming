@@ -3,7 +3,7 @@ package day17_loops;
 public class Factorial {
     public static void main(String[] args) {
         int n = 5;
-        int originalN = n;
+        int originalN = 5;
         int result = 1;
 
 
