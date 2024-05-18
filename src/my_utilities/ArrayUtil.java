@@ -66,6 +66,8 @@ public class ArrayUtil {
 
         return max;
     }
+
+
     /**
      * This method checks if the given number exists in the array
      * @param arr is the given array to be checked
@@ -83,6 +85,8 @@ public class ArrayUtil {
 
         return false;
     }
+
+
     /**
      * This method returns new array with added element at the end
      * @param origArr is an array where we will add an element to the end
@@ -100,7 +104,29 @@ public class ArrayUtil {
     }
 
 
-    //TODO: create a reusable method that take 2 int array and return one array combined
+    /**
+     * This method returns new int array with combined element from two int arrays
+     * @param arr1 is an array where we will add an element to the beginning
+     * @param arr2 is an array where we will add an element to the end
+     * @return new array with combined elements
+     */
+    public static int [] addElemInArr (int [] arr1, int [] arr2) { // [0, 1, 1, 2, 3] - [4, 5]
+
+        int [] newArr = Arrays.copyOf(arr1, arr1.length+arr2.length); // [0, 1, 1, 2, 3, _, _]
+
+        for (int i = arr1.length; i < newArr.length; i++) {
+            newArr[i] = arr2[i - arr1.length]; // newArr[5] = arr2[5 - 5]; |  newArr[6] = arr2[6 - 5];
+        }
+
+        return newArr;
+    }
+
+
+    //TODO: create a reusable method that take 2 String array and return one array combined
+
+
+
+
 
 
     /**
@@ -121,6 +147,7 @@ public class ArrayUtil {
 
 
 
+
     /**
      * This method finds the first matched element's index of String array
      * @param array is the parameter where we will check for the element
@@ -138,6 +165,7 @@ public class ArrayUtil {
         return -1;
     }
 
+
     /**
      * This method sum up all the elements in int array
      * @param nums is the array where I get all the elements to sup up
@@ -151,6 +179,5 @@ public class ArrayUtil {
         }
         return sum;
     }
-
 
 }
