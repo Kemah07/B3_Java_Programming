@@ -8,6 +8,7 @@ public class TypePromotion {
         use(1.2f);
         use(3.5);
 
+
         use((double)3); // use(3.0);
 
 

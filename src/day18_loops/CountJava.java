@@ -7,7 +7,7 @@ package day18_loops;
         0123
  */
 
-public class CountJava {
+public class  CountJava {
     public static void main(String[] args) {
 
         String str = "java is a java language java";
