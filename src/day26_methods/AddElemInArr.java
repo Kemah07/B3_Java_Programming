@@ -18,7 +18,6 @@ public class AddElemInArr {
 
     }
 
-
     // create a method that accepts int [] and a number and returns an int [] with added element in it.
 
     public static int [] addElemInArr (int [] origArr, int elemToAdd){
