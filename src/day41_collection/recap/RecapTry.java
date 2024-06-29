@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class RecapTry {
     public static void main(String[] args) {
 
-        ArrayList<String> list = new ArrayList <>();
+
+        ArrayList <String> list = new ArrayList <>();
+
         list.add("java");
         list.add("api");
         list.add("ci/cd");
